@@ -1,0 +1,8 @@
+var listaSeries = ["https://infinitasvidas.files.wordpress.com/2020/06/peaky-blinders.png?w=640","https://upload.wikimedia.org/wikipedia/pt/2/25/Suits_temporada_7.jpg","https://portal.megabrasil.com.br/imagens/20200811_5f32a9012dc4e.jpg","https://t.ctcdn.com.br/YbDUBMmb1gDALkZFBg7lyAhxtVQ=/320x180/smart/i618290.jpeg","https://www.cdpoint.com.br/Imagens_main/789/851/297/7898512979500.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn2RVPlFxOiW7OO8btD8uW-DCua88g119v7GVdeel4Ux_ANY7O9IIuvW6Fe4dALGqrxuQ&usqp=CAU","https://pm1.aminoapps.com/6497/2a86ad8755fecb5b26054998dcfb20f7461a869e_hq.jpg","https://br.web.img2.acsta.net/pictures/23/09/14/22/21/5601463.png","https://poltronanerd.com.br/wp-content/uploads/2019/01/poltrona-Sex-education-poster.jpg","https://www.ecranlarge.com/media/cache/160x213/uploads/image/001/487/yrvucoxcwsxmia2ewem15adyjmn-295.jpg","https://img.elo7.com.br/product/zoom/4AA1F61/quadro-decorativo-serie-the-witcher-serie.jpg"]
+var nomeSeries = ["Peaky Blinders","Suits","Lucifer","Casa do Dreagão","Lobo Adolescente","Brighton","Grimm","One Piece","Sex Education","Vaganarok","The Witcher"]
+for(var i = 0; i < listaSeries.length; i++){
+    document.write("<div style='display: inline-block; margin: 10px;'>");
+    document.write("<img src=" + listaSeries[i] + ">");
+    document.write("<p style='color:red;font-size:13px'>" + nomeSeries[i] + "</p>");
+    document.write("</div>");
+}

@@ -1,0 +1,61 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-color: #000000; 
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color:blue;
+    margin: 0 0 5px;
+     
+  }
+  
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    height: 240px;
+    width: 180px; 
+  }
+
+  h2{
+    color:#ffffff
+  }
+
+  p{
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+ 
+a.botao{
+  color:white;
+  text-decoration: none;
+  border: 1px solid blue;
+  padding: 15px;
+  margin-right: 5px;
+   
+}
+a.botao:hover{
+  background: blue;
+  color:red;
+  
+}
+.icone{
+
+  width: 30px;
+  height:30px;
+  
+}
+  footer{
+    margin-top:100px;
+    height:200px;
+    background-image: linear-gradient(180deg,black,rgb(34, 34, 93),rgb(46, 46, 193));
+  }
+  
