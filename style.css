@@ -1,21 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+
+
 body {
-    font-family: "Roboto Mono", monospace;
-    text-align: center;
-    background-color: #000000; 
+     
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(white,rgb(185, 181, 181),rgb(150, 143, 143),rgb(50, 50, 50)); 
+    color: #333;
+    
   }
-  
-  .container {
+
+  .header {
+    background-image: url('img/cinema.jpg');
+    background-size: cover;
+    height: 100px;
+    padding: 50px 0;
     text-align: center;
-    padding: 20px;
+    background-image: ();
+    color: white;
+   
+}
+   
+  .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
   }
   
   .page-title {
-    color:blue;
-    margin: 0 0 5px;
-     
-  }
+    color: #ff4500; 
+    padding-bottom: 65px;
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    }
+   
   
-  
+
   body > img {
     margin: 0 10px;
   }
@@ -26,36 +52,159 @@ body {
   }
 
   h2{
-    color:#ffffff
+    color:black;
+    font-size: 2.5em;
+    
+    
+    
   }
 
   p{
-    color:white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+    .poetsen-one-regular {
+      font-family: "Poetsen One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
   }
+}
+  .botao {
+    background-color:red;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ff4500;
+
+    
+}
+
  
 a.botao{
   color:white;
   text-decoration: none;
-  border: 1px solid blue;
+  border: 1px solid red;
   padding: 15px;
   margin-right: 5px;
    
 }
 a.botao:hover{
-  background: blue;
-  color:red;
+  background:#9009c6 ;
+  color:blue;
   
 }
-.icone{
 
-  width: 30px;
-  height:30px;
+.botao1{
+  background-color: #00a2ff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+a.botao1{
+  color:white;
+  text-decoration: none;
+  border: 1px solid #00b7ff;
+  padding: 15px;
+  margin-right: 5px;
+}  
+a.botao1:hover{
+  background:black;
+  color:blue;
   
 }
+
+
+.botao2{
+  background-color: #002fff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+a.botao2{
+  color:white;
+  text-decoration: none;
+  border: 1px solid blue;
+  padding: 15px;
+  margin-right: 5px;
+  
+}  
+a.botao2:hover{
+  background:rgb(247, 11, 172);
+  color:rgb(47, 255, 0);
+  
+}
+
+.icone{
+  width: 50px;
+  height: 50px;
+  
+}
+
   footer{
-    margin-top:100px;
-    height:200px;
-    background-image: linear-gradient(180deg,black,rgb(34, 34, 93),rgb(46, 46, 193));
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+   
   }
+
+  /* Estilos para filmes*/
+  .movie-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .movie-item{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .movie-item img{
+    width: 100%;
+    height: auto;
+    max-width: 180px;/*Ajusta para responsivel*/
+  }
+
+  /*Media Queries para responsividade*/
+  @media (max-width: 768px) {
+    .page-title{
+      fonte-size: 1.5em;
+    }
+    h2 {
+      font-size: 2em;
+      
+    }
+    .botao {
+      padding: 8px 16px;
+    }
+    .movie-item {
+      width: 45%;
+    }
+    .container {
+      padding: 10px;
+    }
+  }
+
+  @media (max-widht : 480px) {
+    .page-title {
+      font-size: 1.2em;
+    }
+    h2 {
+      font-size: 1.5em;
+    }
+    .botao {
+      padding: 6px 12px;
+    }
+    .movie-item {
+      width: 90%;
+    }
+  }
+  
   
