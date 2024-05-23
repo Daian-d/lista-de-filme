@@ -1,4 +1,4 @@
-<h1 align="center">Lista de filmes</h1>
+<h1 text-align="center">Lista de filmes</h1>
 <<img src="img/lista-filme.png">
 <p>A lista filmes foi realizada com as linguagens:
 <p> - javascript
