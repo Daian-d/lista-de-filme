@@ -29,7 +29,7 @@ Com essa estrutura, a manutenção e a expansão da lista de filmes são realiza
 Para ver a dinâmica do site, você pode  acessar a lista completa de filmes através do link abaixo:
 
 
-[Veja a Lista de Filmes](https://www.seusite.com/lista-de-filmes)
+[Veja a Lista de Filmes](https://daian-d.github.io/lista-de-filme/)
 
 
 
