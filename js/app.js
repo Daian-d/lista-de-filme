@@ -9,7 +9,7 @@ var listaSeries = [
     "https://pm1.aminoapps.com/6497/2a86ad8755fecb5b26054998dcfb20f7461a869e_hq.jpg", 
     "https://br.web.img2.acsta.net/pictures/23/09/14/22/21/5601463.png", 
     "https://poltronanerd.com.br/wp-content/uploads/2019/01/poltrona-Sex-education-poster.jpg", 
-    "https://www.ecranlarge.com/media/cache/160x213/uploads/image/001/487/yrvucoxcwsxmia2ewem15adyjmn-295.jpg", 
+    "https://dnm.nflximg.net/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABTqR7dxmp3kkmGcOt7NS-p7jmaHjBAnSatMf22KgkuHYBhoAwIdCmEbmkuO2XGfEuvTp13b6aJGnWiwn1Lpr4fIsUCU8mO2RFskpGOoKS-hfed1LgX9N_0kEP6aq1tKMIVClEw.jpg?r=3ea", 
     "https://img.elo7.com.br/product/zoom/4AA1F61/quadro-decorativo-serie-the-witcher-serie.jpg",
     "https://i.ibb.co/FxHf1rm/img-4718-854x540.jpg"];
 
